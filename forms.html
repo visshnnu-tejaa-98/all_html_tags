@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" placeholder="First Name" />
+      </div>
+      <div>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" placeholder="Last Name" />
+      </div>
+      <div>
+        <label for="name">Email:</label>
+        <input type="email" name="email" placeholder="Email" />
+      </div>
+      <div>
+        <p>Gender</p>
+        <input type="radio" name="gender" /> Male
+        <input type="radio" name="gender" /> female
+      </div>
+      <div>
+        <p>Hobbies</p>
+        <input type="checkbox" name="hobbies" /> Movies
+        <input type="checkbox" name="hobbies" /> Travelling
+        <input type="checkbox" name="hobbies" /> Outdoor Games
+        <input type="checkbox" name="hobbies" /> Indoor Games
+      </div>
+      <div>
+        <select name="games" id="">
+          <option value="cricket">cricket</option>
+          <option value="volly ball">volly ball</option>
+          <option value="batmittion">batmittion</option>
+          <option value="kokp">kokp</option>
+        </select>
+      </div>
+      <div>
+        <p>this is multi select</p>
+        <select name="games" id="" multiple>
+          <option value="cricket">cricket</option>
+          <option value="volly ball">volly ball</option>
+          <option value="batmittion">batmittion</option>
+          <option value="kokp">kokp</option>
+        </select>
+      </div>
+      <div>
+        <label for="date"></label>
+        <input type="date" name="" id="" />
+      </div>
+      <div>
+        <label for="time"></label>
+        <input type="time" name="" id="" />
+      </div>
+      <div>
+        <label for="datetime"></label>
+        <input type="datetime-local" name="" id="" />
+      </div>
+      <div>
+        <label for="uploadFile"></label>
+        <input type="file" name="" id="" />
+      </div>
+      <div>
+        <input type="button" value="input tag Submit" />
+        <button type="button">button type Submit</button>
+        <button type="submit">submit type Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
